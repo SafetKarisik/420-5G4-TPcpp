@@ -72,10 +72,24 @@ include CMakeFiles/bibliotheque.dir/flags.make
 CMakeFiles/bibliotheque.dir/codegen:
 .PHONY : CMakeFiles/bibliotheque.dir/codegen
 
+CMakeFiles/bibliotheque.dir/activitylog.cpp.o: CMakeFiles/bibliotheque.dir/flags.make
+CMakeFiles/bibliotheque.dir/activitylog.cpp.o: /workspaces/420-5G4-TPcpp/activitylog.cpp
+CMakeFiles/bibliotheque.dir/activitylog.cpp.o: CMakeFiles/bibliotheque.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/420-5G4-TPcpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/bibliotheque.dir/activitylog.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bibliotheque.dir/activitylog.cpp.o -MF CMakeFiles/bibliotheque.dir/activitylog.cpp.o.d -o CMakeFiles/bibliotheque.dir/activitylog.cpp.o -c /workspaces/420-5G4-TPcpp/activitylog.cpp
+
+CMakeFiles/bibliotheque.dir/activitylog.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/bibliotheque.dir/activitylog.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/420-5G4-TPcpp/activitylog.cpp > CMakeFiles/bibliotheque.dir/activitylog.cpp.i
+
+CMakeFiles/bibliotheque.dir/activitylog.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/bibliotheque.dir/activitylog.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/420-5G4-TPcpp/activitylog.cpp -o CMakeFiles/bibliotheque.dir/activitylog.cpp.s
+
 CMakeFiles/bibliotheque.dir/book.cpp.o: CMakeFiles/bibliotheque.dir/flags.make
 CMakeFiles/bibliotheque.dir/book.cpp.o: /workspaces/420-5G4-TPcpp/book.cpp
 CMakeFiles/bibliotheque.dir/book.cpp.o: CMakeFiles/bibliotheque.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/420-5G4-TPcpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/bibliotheque.dir/book.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/420-5G4-TPcpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/bibliotheque.dir/book.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bibliotheque.dir/book.cpp.o -MF CMakeFiles/bibliotheque.dir/book.cpp.o.d -o CMakeFiles/bibliotheque.dir/book.cpp.o -c /workspaces/420-5G4-TPcpp/book.cpp
 
 CMakeFiles/bibliotheque.dir/book.cpp.i: cmake_force
@@ -89,7 +103,7 @@ CMakeFiles/bibliotheque.dir/book.cpp.s: cmake_force
 CMakeFiles/bibliotheque.dir/filemanager.cpp.o: CMakeFiles/bibliotheque.dir/flags.make
 CMakeFiles/bibliotheque.dir/filemanager.cpp.o: /workspaces/420-5G4-TPcpp/filemanager.cpp
 CMakeFiles/bibliotheque.dir/filemanager.cpp.o: CMakeFiles/bibliotheque.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/420-5G4-TPcpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/bibliotheque.dir/filemanager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/420-5G4-TPcpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/bibliotheque.dir/filemanager.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bibliotheque.dir/filemanager.cpp.o -MF CMakeFiles/bibliotheque.dir/filemanager.cpp.o.d -o CMakeFiles/bibliotheque.dir/filemanager.cpp.o -c /workspaces/420-5G4-TPcpp/filemanager.cpp
 
 CMakeFiles/bibliotheque.dir/filemanager.cpp.i: cmake_force
@@ -103,7 +117,7 @@ CMakeFiles/bibliotheque.dir/filemanager.cpp.s: cmake_force
 CMakeFiles/bibliotheque.dir/library.cpp.o: CMakeFiles/bibliotheque.dir/flags.make
 CMakeFiles/bibliotheque.dir/library.cpp.o: /workspaces/420-5G4-TPcpp/library.cpp
 CMakeFiles/bibliotheque.dir/library.cpp.o: CMakeFiles/bibliotheque.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/420-5G4-TPcpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/bibliotheque.dir/library.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/420-5G4-TPcpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/bibliotheque.dir/library.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bibliotheque.dir/library.cpp.o -MF CMakeFiles/bibliotheque.dir/library.cpp.o.d -o CMakeFiles/bibliotheque.dir/library.cpp.o -c /workspaces/420-5G4-TPcpp/library.cpp
 
 CMakeFiles/bibliotheque.dir/library.cpp.i: cmake_force
@@ -117,7 +131,7 @@ CMakeFiles/bibliotheque.dir/library.cpp.s: cmake_force
 CMakeFiles/bibliotheque.dir/main.cpp.o: CMakeFiles/bibliotheque.dir/flags.make
 CMakeFiles/bibliotheque.dir/main.cpp.o: /workspaces/420-5G4-TPcpp/main.cpp
 CMakeFiles/bibliotheque.dir/main.cpp.o: CMakeFiles/bibliotheque.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/420-5G4-TPcpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/bibliotheque.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/420-5G4-TPcpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/bibliotheque.dir/main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bibliotheque.dir/main.cpp.o -MF CMakeFiles/bibliotheque.dir/main.cpp.o.d -o CMakeFiles/bibliotheque.dir/main.cpp.o -c /workspaces/420-5G4-TPcpp/main.cpp
 
 CMakeFiles/bibliotheque.dir/main.cpp.i: cmake_force
@@ -131,7 +145,7 @@ CMakeFiles/bibliotheque.dir/main.cpp.s: cmake_force
 CMakeFiles/bibliotheque.dir/user.cpp.o: CMakeFiles/bibliotheque.dir/flags.make
 CMakeFiles/bibliotheque.dir/user.cpp.o: /workspaces/420-5G4-TPcpp/user.cpp
 CMakeFiles/bibliotheque.dir/user.cpp.o: CMakeFiles/bibliotheque.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/420-5G4-TPcpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/bibliotheque.dir/user.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/420-5G4-TPcpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/bibliotheque.dir/user.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bibliotheque.dir/user.cpp.o -MF CMakeFiles/bibliotheque.dir/user.cpp.o.d -o CMakeFiles/bibliotheque.dir/user.cpp.o -c /workspaces/420-5G4-TPcpp/user.cpp
 
 CMakeFiles/bibliotheque.dir/user.cpp.i: cmake_force
@@ -144,6 +158,7 @@ CMakeFiles/bibliotheque.dir/user.cpp.s: cmake_force
 
 # Object files for target bibliotheque
 bibliotheque_OBJECTS = \
+"CMakeFiles/bibliotheque.dir/activitylog.cpp.o" \
 "CMakeFiles/bibliotheque.dir/book.cpp.o" \
 "CMakeFiles/bibliotheque.dir/filemanager.cpp.o" \
 "CMakeFiles/bibliotheque.dir/library.cpp.o" \
@@ -153,6 +168,7 @@ bibliotheque_OBJECTS = \
 # External object files for target bibliotheque
 bibliotheque_EXTERNAL_OBJECTS =
 
+bibliotheque: CMakeFiles/bibliotheque.dir/activitylog.cpp.o
 bibliotheque: CMakeFiles/bibliotheque.dir/book.cpp.o
 bibliotheque: CMakeFiles/bibliotheque.dir/filemanager.cpp.o
 bibliotheque: CMakeFiles/bibliotheque.dir/library.cpp.o
@@ -161,7 +177,7 @@ bibliotheque: CMakeFiles/bibliotheque.dir/user.cpp.o
 bibliotheque: CMakeFiles/bibliotheque.dir/build.make
 bibliotheque: CMakeFiles/bibliotheque.dir/compiler_depend.ts
 bibliotheque: CMakeFiles/bibliotheque.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/workspaces/420-5G4-TPcpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable bibliotheque"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/workspaces/420-5G4-TPcpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable bibliotheque"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/bibliotheque.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

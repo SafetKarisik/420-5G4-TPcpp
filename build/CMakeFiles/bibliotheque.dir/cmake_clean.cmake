@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/bibliotheque.dir/link.d"
+  "CMakeFiles/bibliotheque.dir/activitylog.cpp.o"
+  "CMakeFiles/bibliotheque.dir/activitylog.cpp.o.d"
   "CMakeFiles/bibliotheque.dir/book.cpp.o"
   "CMakeFiles/bibliotheque.dir/book.cpp.o.d"
   "CMakeFiles/bibliotheque.dir/filemanager.cpp.o"

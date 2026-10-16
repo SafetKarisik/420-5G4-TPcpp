@@ -129,6 +129,30 @@ bibliotheque/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bibliotheque.dir/build.make CMakeFiles/bibliotheque.dir/build
 .PHONY : bibliotheque/fast
 
+activitylog.o: activitylog.cpp.o
+.PHONY : activitylog.o
+
+# target to build an object file
+activitylog.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bibliotheque.dir/build.make CMakeFiles/bibliotheque.dir/activitylog.cpp.o
+.PHONY : activitylog.cpp.o
+
+activitylog.i: activitylog.cpp.i
+.PHONY : activitylog.i
+
+# target to preprocess a source file
+activitylog.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bibliotheque.dir/build.make CMakeFiles/bibliotheque.dir/activitylog.cpp.i
+.PHONY : activitylog.cpp.i
+
+activitylog.s: activitylog.cpp.s
+.PHONY : activitylog.s
+
+# target to generate assembly for a file
+activitylog.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bibliotheque.dir/build.make CMakeFiles/bibliotheque.dir/activitylog.cpp.s
+.PHONY : activitylog.cpp.s
+
 book.o: book.cpp.o
 .PHONY : book.o
 
@@ -258,6 +282,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... bibliotheque"
+	@echo "... activitylog.o"
+	@echo "... activitylog.i"
+	@echo "... activitylog.s"
 	@echo "... book.o"
 	@echo "... book.i"
 	@echo "... book.s"

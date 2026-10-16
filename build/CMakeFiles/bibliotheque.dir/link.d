@@ -2,6 +2,7 @@ bibliotheque: \
   /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o \
   /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crti.o \
   /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o \
+  CMakeFiles/bibliotheque.dir/activitylog.cpp.o \
   CMakeFiles/bibliotheque.dir/book.cpp.o \
   CMakeFiles/bibliotheque.dir/filemanager.cpp.o \
   CMakeFiles/bibliotheque.dir/library.cpp.o \
@@ -41,6 +42,8 @@ bibliotheque: \
 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crti.o:
 
 /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o:
+
+CMakeFiles/bibliotheque.dir/activitylog.cpp.o:
 
 CMakeFiles/bibliotheque.dir/book.cpp.o:
 
