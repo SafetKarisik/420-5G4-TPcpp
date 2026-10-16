@@ -2,6 +2,8 @@
 #include <algorithm>
 
 #include "library.h"
+#include <cctype>
+#include <cstdio>
 
 using namespace std;
 
@@ -113,6 +115,23 @@ vector<User*> Library::getAllUsers() {
         allUsers.push_back(user.get());
     }
     return allUsers;
+}
+
+//Generate user ID
+string Library::generateUserId() const{
+    int numMax = 0;
+    for (const auto & user : users){
+        const string & id = user->getUserId();
+        if (id.size() > 3 && id.compare(0, 3, "USR") == 0 && all_of(id.begin() + 3, id.end(), [](unsigned char c) {
+                return isdigit(c); 
+            })
+        ) {
+            numMax = max(numMax, stoi(id.substr(3)));
+        }
+    }
+    char buffer[16];
+    snprintf(buffer, sizeof(buffer), "USR%03d", numMax + 1);
+    return buffer;
 }
 
 // Check out book
