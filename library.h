@@ -9,6 +9,9 @@
 
 using namespace std;
 
+//tri des livres
+enum class SortKey {Title, Author};
+
 class Library {
 private:
     vector<unique_ptr<Book>> books;
@@ -27,6 +30,7 @@ public:
     vector<Book*> searchBooksByAuthor(const string& author);
     vector<Book*> getAvailableBooks();
     vector<Book*> getAllBooks();
+    vector<Book*> getBooksSorted(SortKey key);
     
     // User management
     void addUser(const User& user);
@@ -42,6 +46,7 @@ public:
     void displayAllBooks();
     void displayAvailableBooks();
     void displayAllUsers();
+    void displaySortedBooks(SortKey key);
     
     // Statistics
     int getTotalBooks() const;

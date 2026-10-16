@@ -33,6 +33,7 @@ void displayMenu() {
     cout << "11. Statistiques de la Bibliothèque\n";
     cout << "12. Sauvegarder les Données\n";
     cout << "13. Créer une Sauvegarde\n";
+    cout << "14. Afficher les Livres Triés\n";
     cout << "0.  Quitter\n";
     cout << "======================================================\n";
     cout << "Entrez votre choix : ";
@@ -193,7 +194,7 @@ int main(int argc, char* argv[]) {
                 User newUser(name, userId);
                 library.addUser(newUser);
                 cout << "Utilisateur ajouté avec succès ! ID attribué : " << userId << "\n";
-                
+
                 pauseForInput();
                 break;
             }
@@ -250,6 +251,21 @@ int main(int argc, char* argv[]) {
             
             case 13: { // Create Backup
                 fileManager.createBackup();
+                pauseForInput();
+                break;
+            }
+
+            //Display sorted books
+            case 14: {
+                cout << "Trier par :\n1. Titre\n2. Auteur\n";
+                string sortChoice = getInput("Votre choix : ");
+                if (sortChoice == "1") {
+                    library.displaySortedBooks(SortKey::Title);
+                } else if (sortChoice == "2") {
+                    library.displaySortedBooks(SortKey::Author);
+                } else {
+                    cout << "Choix invalide.\n";
+                }
                 pauseForInput();
                 break;
             }
